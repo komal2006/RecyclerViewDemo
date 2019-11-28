@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
         RecyclerView.LayoutManager mLayoutManager = new LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false);
         //RecyclerView.LayoutManager mLayoutManager = new LinearLayoutManager(getApplicationContext());
         rvCountryList.setAdapter(demoView);
-        
+
         rvCountryList.setLayoutManager(mLayoutManager);
 
     }
