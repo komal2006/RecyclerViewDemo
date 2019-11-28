@@ -30,6 +30,7 @@ public class MainActivity extends AppCompatActivity {
         //RecyclerView.LayoutManager mLayoutManager = new LinearLayoutManager(getApplicationContext());
         rvCountryList.setAdapter(demoView);
         rvCountryList.setLayoutManager(mLayoutManager);
+        
     }
 
     private  void populateData() {
